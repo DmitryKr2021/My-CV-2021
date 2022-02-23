@@ -489,13 +489,27 @@ nav {
 .myprojects li figcaption {
   color: var(--font-gold);
   background-color: var(--bg-light);
-  font-size: 25px;
   text-align: center;
   transition: 0.3s;
 }
 
+.myprojects .figure-info {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.myprojects .figure-steck {
+  font-size: 15px;
+
+}
+
 .myprojects li:hover figcaption {
   transform: translateY(-100px);
+}
+
+.myprojects li:first-child:hover figcaption {
+  transform: translateY(-120px);
 }
 
 .education {
