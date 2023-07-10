@@ -39,7 +39,7 @@
 
   fillCircle(0, 7); //html
   fillCircle(1, 7); //css
-  fillCircle(2, 4); //js
+  fillCircle(2, 6); //js
   fillCircle(3, 7); //vs code
   fillCircle(4, 6); //git
   fillCircle(5, 5); //bootstrap
@@ -47,6 +47,7 @@
   fillCircle(7, 6); //figma
   fillCircle(8, 4); //gulp
   fillCircle(9, 5); //sass
+  fillCircle(10, 4); //codewars
 
   const sendv = document.querySelector('.sendvich');
   const navItems = document.querySelector('.nav__items');

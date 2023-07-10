@@ -425,7 +425,7 @@ nav {
   font-weight: 600;
 }
 
-.code_example {
+/*.code_example {
   position: relative;
 }
 
@@ -455,7 +455,7 @@ nav {
   display: block;
   height: auto;
   transform: translateY(-140px);
-}
+}*/
 
 .projects {
   margin-top: 50px;
@@ -501,7 +501,6 @@ nav {
 
 .myprojects .figure-steck {
   font-size: 15px;
-
 }
 
 .myprojects li:hover figcaption {
@@ -510,6 +509,13 @@ nav {
 
 .myprojects li:first-child:hover figcaption {
   transform: translateY(-120px);
+}
+
+.myprojects .console {
+ width: 300px;
+ height: 70px;
+ text-align: center;
+ border: 2px solid rgba(182, 121, 8, 0.7);
 }
 
 .education {
