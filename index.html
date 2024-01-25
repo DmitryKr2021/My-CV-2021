@@ -54,98 +54,6 @@
  </header>
 
  <main class="container">
-  <div class="personal">
-   <section class="personal__info">
-    <div class="personal__info_title" id="to_1">
-     <h2 class="center">About myself</h2>
-    </div>
-    <div class="personal__info_text">
-     <span>My objective</span> is to become a <i>demanded specialist in the front-end</i>. I set myself the task of
-     mastering HTML, CSS, JS, as well as a number of technologies (Git, assemblers, preprocessors, frameworks,
-     etc.) that allow to
-     create modern effective sites, develop user interfaces, and in the future – to solve more complex and
-     interesting tasks in the field of web development.
-    </div>
-    <div class="personal__info_text">
-     <span>My strengths</span> include a <em>high level of motivation, interest in mastering new technologies, and
-      fast learning
-      ability.</em>
-    </div>
-   </section>
-   <section class="personal__contacts" id="to_6">
-    <h2 class="center">Contacts</h2>
-    <ul class="personal__contacts_list">
-     <li class="personal__contacts_item">
-      <a class="link" href="tel:+7(985)2481418">
-       <div class="link__ico">
-        <img src="img/phone.png" alt="#">
-       </div>
-       <div class="link__text">+7 985 248-14-18</div>
-      </a>
-     </li>
-     <li class="personal__contacts_item">
-      <a class="link" href="mailto:krdvmail@mail.ru" target="_blank">
-       <div class="link__ico">
-        <img src="img/mail.png" alt="#">
-       </div>
-       <div class="link__text">krdvmail@mail.ru</div>
-      </a>
-     </li>
-     <li class="personal__contacts_item">
-      <a class="link" href="https://vk.com/id446183970" target="_blank">
-       <div class="link__ico">
-        <img src="img/VK.png" alt="#">
-       </div>
-       <div class="link__text">id446183970</div>
-      </a>
-     </li>
-     <li class="personal__contacts_item">
-      <a class="link" href="https://github.com/DmitryKr2021" target="_blank">
-       <div class="link__ico">
-        <img src="img/git.png" alt="#">
-       </div>
-       <div class="link__text">DmitryKr2021</div>
-      </a>
-     </li>
-    </ul>
-    <div class="map">
-     <script async
-      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad1fcf430aee84823ba89d8005e372fd0c91acc7bee37b7be6503c9443b55da0c&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
-      </script>
-    </div>
-   </section>
-   <section class="language">
-    <div class="language__title">
-     <h2 class="underline">Language</h2>
-    </div>
-    <ul class="english__text text">
-     <li>
-      <p>Rissian is native</p>
-     </li>
-     <li>
-      <p>English Intermediate</p>
-     </li>
-    </ul>
-   </section>
-   <section class="education" id="to_5">
-    <div class="education__wrap">
-     <div class="education__title">
-      <h2 class="underline">Education</h2>
-     </div>
-     <h3>Higher education</h3>
-     <p>Voronezh State University, chemical department.</p>
-     <h3>Education in frontend</h3>
-     <ul class="my_education">
-      <li>Self-education</li>
-      <li>RSschool 2021Q3 «JavaScript/Front-end. Stage#0»</li>
-      <li>Hexlet 2022 - 2023 «Front-end developer»
-      </li>
-     </ul>
-    </div>
-   </section>
-
-  </div>
-  <!--/Personal-->
   <article class="skills">
    <div class="skills__wrap">
     <div class="skills__title" id="to_2">
@@ -163,60 +71,12 @@
      <li class="skills__item"><img class="skills__ico" src="img/figma.png" alt="Figma" width="60"></li>
      <li class="skills__item"><img class="skills__ico" src="img/gulp.png" alt="gulp" width="40"></li>
      <li class="skills__item"><img class="skills__ico" src="img/sass.png" alt="sass" width="60"></li>
+     <li class="skills__item"><img class="skills__ico" src="img/React-icon.svg.png" alt="sass" width="60"></li>
      <li class="skills__item"><a href="https://www.codewars.com/users/DmitryKr2021"><img class="skills__ico"
         src="img/code_wars_logo.svg" alt="codewars" width="60"></a></li>
     </ul>
-    <!--div class="codewars">
-         <img class="skills__ico" src="img/code_wars_logo.svg" alt="codewars" width="60">
-        </!--div-->
-
    </div>
 
-   <section class="experience" id="to_3">
-    <div class="experience__title">
-     <h2 class="underline">Work experience</h2>
-    </div>
-    <div class="experience__text text">
-     My work experience is three years. I have mastered
-     HTML and CSS in a volume sufficient for the layout of sites of medium complexity, as well as JS for adding
-     functionality and solving simple tasks related to working with the DOM tree, servicing online stores, and
-     animation.
-     My experience is in the layout of adaptive sites based on PSD and Figma templates.
-     I also wrote two JavaScript console applications.
-    </div>
-   </section>
-   <!--section class="code_example">
-        <h2 class="underline">Code example</h2>
-        <h3 class="example">From "JS Clock" project</h3>
-        <div class="my_code">
-          <pre><code class="language-js">      
-            //Переменные для кольцевой диаграммы//
-            let charts = document.querySelector('.charts');
-            let sW = 90,
-              mW = 84,
-              hW = 75; //длины угловых секторов сек, мин, час
-            
-            let secondWidth = sW * Math.tan(Math.PI / 60); //шаг секунды
-            let minWidth = mW * Math.tan(Math.PI / 60) * 1.03; //шаг минуты
-            let hourWidth = hW * Math.tan(Math.PI / 60); //шаг часа
-            let divSec = []; //массив угловых секторов секунд
-            let divMin = []; //массив угловых секторов минут
-            let divHour = []; //массив угловых секторов часов
-            
-            //Построение кольцевой диаграммы//
-            /*сек*/
-            for (let i = 0; i &lt; 60; i++) {
-              divSec[i] = document.createElement('div');
-              divSec[i].classList.add('chart__second');
-              divSec[i].style.borderWidth = `${sW}px ${secondWidth}px 0 ${secondWidth}px`;
-              divSec[i].style.transform = `rotate(${i*6}deg)`;
-              divSec[i].style.transformOrigin = `${secondWidth}px ${sW}px`;
-              divSec[i].style.left = `calc(50% - ${secondWidth}px)`;
-              charts.appendChild(divSec[i]);
-            }            
-          </code></pre>
-        </div>
-      </!--section-->
    <section class="projects" id="to_4">
     <h2 class="underline">My projects</h2>
     <ul class="myprojects">
@@ -352,11 +212,134 @@
        </p>
       </a></li>
 
+     <li class="RSS-aggregator application"><a href="https://github.com/DmitryKr2021/frontend-project-11"
+       target="_blank">
+       <p class="figure-info">
+        RSS-aggregator
+       </p>
+       <p class="figure-steck">
+        JS application
+       </p>
+      </a></li>
+
+     <li class="Chat application"><a href="https://github.com/DmitryKr2021/frontend-project-12" target="_blank">
+       <p class="figure-info">
+        Chat
+       </p>
+       <p class="figure-steck">
+        React application
+       </p>
+      </a></li>
     </ul>
    </section>
 
-   <!--/div-->
+   <section class="experience" id="to_3">
+    <div class="experience__title">
+     <h2 class="underline">Work experience</h2>
+    </div>
+    <div class="experience__text text">
+     My work experience is three years. I have mastered
+     HTML and CSS in a volume sufficient for the layout of sites of medium complexity, as well as JS for adding
+     functionality and solving simple tasks related to working with the DOM tree, servicing online stores, and
+     animation.
+     My experience is in the layout of adaptive sites based on PSD and Figma templates.
+     I also wrote two JavaScript console applications.
+    </div>
+   </section>
+
   </article>
+  <div class="personal">
+   <section class="personal__info">
+    <div class="personal__info_title" id="to_1">
+     <h2 class="center">About myself</h2>
+    </div>
+    <div class="personal__info_text">
+     <span>My objective</span> is to become a <i>demanded specialist in the front-end</i>. I set myself the task of
+     mastering HTML, CSS, JS, as well as a number of technologies (Git, assemblers, preprocessors, frameworks,
+     etc.) that allow to
+     create modern effective sites, develop user interfaces, and in the future – to solve more complex and
+     interesting tasks in the field of web development.
+    </div>
+    <div class="personal__info_text">
+     <span>My strengths</span> include a <em>high level of motivation, interest in mastering new technologies, and
+      fast learning
+      ability.</em>
+    </div>
+   </section>
+   <section class="personal__contacts" id="to_6">
+    <h2 class="center">Contacts</h2>
+    <ul class="personal__contacts_list">
+     <li class="personal__contacts_item">
+      <a class="link" href="tel:+7(985)2481418">
+       <div class="link__ico">
+        <img src="img/phone.png" alt="#">
+       </div>
+       <div class="link__text">+7 985 248-14-18</div>
+      </a>
+     </li>
+     <li class="personal__contacts_item">
+      <a class="link" href="mailto:krdvmail@mail.ru" target="_blank">
+       <div class="link__ico">
+        <img src="img/mail.png" alt="#">
+       </div>
+       <div class="link__text">krdvmail@mail.ru</div>
+      </a>
+     </li>
+     <li class="personal__contacts_item">
+      <a class="link" href="https://vk.com/id446183970" target="_blank">
+       <div class="link__ico">
+        <img src="img/VK.png" alt="#">
+       </div>
+       <div class="link__text">id446183970</div>
+      </a>
+     </li>
+     <li class="personal__contacts_item">
+      <a class="link" href="https://github.com/DmitryKr2021" target="_blank">
+       <div class="link__ico">
+        <img src="img/git.png" alt="#">
+       </div>
+       <div class="link__text">DmitryKr2021</div>
+      </a>
+     </li>
+    </ul>
+    <div class="map">
+     <script async
+      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad1fcf430aee84823ba89d8005e372fd0c91acc7bee37b7be6503c9443b55da0c&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
+      </script>
+    </div>
+   </section>
+   <section class="language">
+    <div class="language__title">
+     <h2 class="underline">Language</h2>
+    </div>
+    <ul class="english__text text">
+     <li>
+      <p>Rissian is native</p>
+     </li>
+     <li>
+      <p>English B1</p>
+     </li>
+    </ul>
+   </section>
+   <section class="education" id="to_5">
+    <div class="education__wrap">
+     <div class="education__title">
+      <h2 class="underline">Education</h2>
+     </div>
+     <h3>Higher education</h3>
+     <p>Voronezh State University, chemical department.</p>
+     <h3>Education in frontend</h3>
+     <ul class="my_education">
+      <li>Self-education</li>
+      <li>RSschool 2021Q3 «JavaScript/Front-end. Stage#0»</li>
+      <li>Hexlet 2022 - 2023 «Front-end developer»
+      </li>
+     </ul>
+    </div>
+   </section>
+  </div>
+  <!--/Personal-->
+
  </main>
  <!--/container-->
  <footer class="footer">

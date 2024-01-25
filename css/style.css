@@ -425,38 +425,6 @@ nav {
   font-weight: 600;
 }
 
-/*.code_example {
-  position: relative;
-}
-
-.example {
-  margin-top: 10px;
-  margin-left: 20%;
-  padding: 20px;
-  text-align: center;
-  width: 60%;
-  font-size: 25px;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: #eeeeee;
-}
-
-.my_code {
-  position: absolute;
-  top: 300px;
-  z-index: 10;
-  background-color: #fff;
-  height: 0;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.example:hover+.my_code {
-  display: block;
-  height: auto;
-  transform: translateY(-140px);
-}*/
-
 .projects {
   margin-top: 50px;
   margin-left: 5%;
@@ -512,6 +480,13 @@ nav {
 }
 
 .myprojects .console {
+ width: 300px;
+ height: 70px;
+ text-align: center;
+ border: 2px solid rgba(182, 121, 8, 0.7);
+}
+
+.myprojects .application {
  width: 300px;
  height: 70px;
  text-align: center;

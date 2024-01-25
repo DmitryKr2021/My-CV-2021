@@ -1,5 +1,4 @@
-﻿document.addEventListener('DOMContentLoaded', function () {
-
+﻿document.addEventListener("DOMContentLoaded", function () {
   console.log(`
   •	вёрстка валидная +10
   •	вёрстка семантическая +20
@@ -17,23 +16,24 @@
   ИТОГО: 150
 `);
 
-  const skills = document.querySelectorAll('.skills__item');
+  const skills = document.querySelectorAll(".skills__item");
   const a = 60; //сторона квадрата с иконкой
 
   for (let skill of skills) {
-
     for (let i = 0; i < 10; i++) {
-      let circle = document.createElement('div');
-      circle.classList.add('circle');
+      let circle = document.createElement("div");
+      circle.classList.add("circle");
       skill.appendChild(circle);
-      circle.style.transform = `translate(${a*Math.sin(Math.PI*(i+1)/5)+42}px, ${-a*Math.cos(Math.PI*(i+1)/5)+40}px)`;
+      circle.style.transform = `translate(${
+        a * Math.sin((Math.PI * (i + 1)) / 5) + 42
+      }px, ${-a * Math.cos((Math.PI * (i + 1)) / 5) + 40}px)`;
     }
   }
 
   function fillCircle(numSkill, numSircle) {
-    let oneCircle = skills[numSkill].querySelectorAll('.circle');
+    let oneCircle = skills[numSkill].querySelectorAll(".circle");
     for (let i = 0; i < numSircle; i++) {
-      oneCircle[i].classList.add('fill');
+      oneCircle[i].classList.add("fill");
     }
   }
 
@@ -47,11 +47,12 @@
   fillCircle(7, 6); //figma
   fillCircle(8, 4); //gulp
   fillCircle(9, 5); //sass
-  fillCircle(10, 4); //codewars
+  fillCircle(10, 6); //react
+  fillCircle(11, 4); //codewars
 
-  const sendv = document.querySelector('.sendvich');
-  const navItems = document.querySelector('.nav__items');
+  const sendv = document.querySelector(".sendvich");
+  const navItems = document.querySelector(".nav__items");
   sendv.onclick = function () {
-    navItems.classList.toggle('nav__show');
+    navItems.classList.toggle("nav__show");
   };
 });
