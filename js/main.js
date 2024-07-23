@@ -49,7 +49,8 @@
   fillCircle(9, 4); //gulp
   fillCircle(10, 5); //sass
   fillCircle(11, 6); //react
-  fillCircle(12, 4); //codewars
+  fillCircle(12, 65); //docker
+  fillCircle(13, 4); //codewars
 
   const sendv = document.querySelector(".sendvich");
   const navItems = document.querySelector(".nav__items");
