@@ -41,13 +41,15 @@
   fillCircle(1, 7); //css
   fillCircle(2, 6); //js
   fillCircle(3, 6); //git
-  fillCircle(4, 5); //bootstrap
-  fillCircle(5, 6); //photoshop
-  fillCircle(6, 6); //figma
-  fillCircle(7, 4); //gulp
-  fillCircle(8, 5); //sass
-  fillCircle(9, 6); //react
-  fillCircle(10, 4); //codewars
+  fillCircle(4, 6); //lodash
+  fillCircle(5, 6); //bootstrap
+  fillCircle(6, 6); //ant-design
+  fillCircle(7, 6); //photoshop
+  fillCircle(8, 6); //figma
+  fillCircle(9, 4); //gulp
+  fillCircle(10, 5); //sass
+  fillCircle(11, 6); //react
+  fillCircle(12, 4); //codewars
 
   const sendv = document.querySelector(".sendvich");
   const navItems = document.querySelector(".nav__items");
